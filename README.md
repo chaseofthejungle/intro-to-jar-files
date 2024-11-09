@@ -23,7 +23,14 @@ Common jar command uses:
 | jar xf example-jar | Extracts all contents of a .jar. |
 | java -jar app.jar | Runs a .jar applet, using the manifest header of the Main-Class. |
 
+Examples of APIs that integrate JAR files include:  
+
+| API | Explanation |
+| --- | --- |
+| java.net.JarURLConnection *(class)* | Provides URL connections to read JAR files (or entries within JAR files). |
+| java.net.URLClassLoader *(class)* | Loads resources from URL search paths associated with JAR files/directories. |
+| java.util.jar *(package)* | Contains classes for reading and writing JAR files. |
+
 TODO #1: Outline the basics of .jar files.  
 TODO #2: Explain how manifest files work.  
 TODO #3: Provide an overview of .jar file signatures.  
-TODO #4: Provide examples of .jar APIs.
