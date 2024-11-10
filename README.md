@@ -29,6 +29,11 @@ Some common uses of the jar command ('jar tool'):
 | **java -jar app.jar** | Runs a .jar applet, using the manifest header of the Main-Class. |
 
 <br /><br />
+**Manifest files** contain essential data about the files packaged within JARs. This 'metadata' includes versioning, sealing, electronic signing, and other important values related to identification and the various advantages associated with .jar files.
+  
+Upon creation of a JAR, a default manifest file is generated with a pathname of `META-INF/MANIFEST.MF`. Only one manifest file is permitted per JAR.
+
+<br /><br />
 Examples of APIs that integrate JAR files include:  
 
 | API | Explanation |
@@ -39,5 +44,5 @@ Examples of APIs that integrate JAR files include:
 
 <br /><br />
 TODO #1: Create and link to text files outlining options for various command usages.  
-TODO #2: Explain how manifest files work.  
+TODO #2: Create and link to a text file outlining details about manifest files.  
 TODO #3: Provide an overview of .jar file signatures.  
