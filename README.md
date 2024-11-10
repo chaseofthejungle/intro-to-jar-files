@@ -19,7 +19,7 @@ Advantages of .jar files include the following:
 <br /><br />
 Some common uses of the jar command ('jar tool'):
 
-| Command | Explanation |
+| Usage | Explanation |
 | --- | --- |
 | **jar cf example-jar example-input-file** | Creates a .jar. *(Multiple input files can be specified.)* |
 | **jar tf example-jar** | Displays contents of a .jar. |
