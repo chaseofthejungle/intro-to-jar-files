@@ -29,7 +29,7 @@ Some common uses of the jar command ('jar tool'):
 | **java -jar app.jar** | Runs a .jar applet, using the manifest header of the Main-Class. |
 
 <br /><br />
-**Manifest files** contain essential data about the files packaged within JARs. This 'metadata' includes versioning, sealing, electronic signing, and other important values related to identification and the various advantages associated with .jar files.
+**Manifest files** contain essential data about the files packaged within JARs. This 'metadata' includes dependencies with other JAR files, versioning and security information (such as electronic signing), and other important values related to identification and the various advantages associated with .jar files.
   
 Upon creation of a JAR, a default manifest file is generated with a pathname of `META-INF/MANIFEST.MF`. Only one manifest file is permitted per JAR.
 
