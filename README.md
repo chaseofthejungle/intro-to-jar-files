@@ -19,10 +19,11 @@ Some common uses of the jar command ('jar tool'):
 
 | Command | Explanation |
 | --- | --- |
-| **jar cf example-jar example-input-file** | Creates a .jar. (Multiple input files can be specified.) |
+| **jar cf example-jar example-input-file** | Creates a .jar. *(Multiple input files can be specified.)* |
 | **jar tf example-jar** | Displays contents of a .jar. |
-| **jar xf example-jar specified-file** | Extracts specified files from a .jar. (Multiple files can be specified.) |
+| **jar xf example-jar specified-file** | Extracts specified files from a .jar. *(Multiple files can be specified.)* |
 | **jar xf example-jar** | Extracts all contents of a .jar. |
+| **jar uf example-jar example-input-file** | Updates JAR file contents *(Multiple input files can be specified. Alternatively, can update the manifest directly.)* |
 | **java -jar app.jar** | Runs a .jar applet, using the manifest header of the Main-Class. |
 
 Examples of APIs that integrate JAR files include:  
