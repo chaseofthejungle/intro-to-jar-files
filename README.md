@@ -38,6 +38,6 @@ Examples of APIs that integrate JAR files include:
 | **java.util.jar** *(package)* | Contains classes for reading and writing JAR files. |
 
 <br /><br />
-TODO #1: Outline the basics of .jar files.  
+TODO #1: Create and link to text files outlining options for various command usages.  
 TODO #2: Explain how manifest files work.  
 TODO #3: Provide an overview of .jar file signatures.  
