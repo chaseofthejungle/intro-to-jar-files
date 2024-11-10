@@ -13,7 +13,9 @@ Advantages of .jar files include the following:
 | **Package Sealing** | By assuring that all classes in a package are included within a .jar file, version consistency can be sustained. |
 | **Secure Digital Signatures** | .jar files can be trusted with permissions based on utilizing these as a security mechanism. | 
 
-Common jar command uses:
+**How to use .jar files:**  The Java Development Kit ('JDK') contains a Java Archive Tool for accomplishing .jar file tasks. To use this tool, you would use the `jar` command.
+
+Some common uses of the jar command ('jar tool'):
 
 | Command | Explanation |
 | --- | --- |
