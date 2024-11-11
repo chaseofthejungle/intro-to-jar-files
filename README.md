@@ -1,4 +1,4 @@
-# intro-to-jar-files
+# Intro to JAR Files
 **Definition:** JAR files are compressed Java archives (hence the extension '.jar'). These are bundles of Java-related files, assembled as Java archives. JAR files are convenient for unpacking and distributing Java web applets. 
 
 Advantages of .jar files include the following:
