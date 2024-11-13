@@ -1,6 +1,6 @@
 # Intro to WAR Files
 
-**Definition:** WAR (.war) files are web app archives. A .war is a special kind of JAR that can distribute XML files, tag libraries, static webpages,
+**Definition:** WAR (.war) files are web app archives. A .war is a special kind of [JAR file](README.md) that can distribute XML files, tag libraries, static webpages,
 Java classes, Java Servlets, and JavaServer pages. These resources, when integrated and implemented together, are considered a web application.
 
 **Advantages of WARs:**
