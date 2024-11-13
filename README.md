@@ -32,7 +32,7 @@ Some common uses of the jar command ('jar tool'):
 How a .jar file should be ran depends on whether it: a) contains an applet for execution inside of a web browser, b) contains an app for command line execution, *or* c) contains code for usage as an extension.
   
 <br /><br />
-**Manifest files** contain essential data about the files packaged within JARs. This 'metadata' includes dependencies with other JAR files, versioning and security information (such as electronic signing), and other important values related to identification and the various advantages associated with .jar files.
+[Manifest files](/manifests.md) contain essential data about the files packaged within JARs. This 'metadata' includes dependencies with other JAR files, versioning and security information (such as electronic signing), and other important values related to identification and the various advantages associated with .jar files.
   
 Upon creation of a JAR, a default manifest file is generated with a pathname of `META-INF/MANIFEST.MF`. Only one manifest file is permitted per JAR.
 
