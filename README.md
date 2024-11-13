@@ -51,6 +51,6 @@ Examples of APIs that integrate JAR files include:
 [WAR (.war)](/wars.md) files are web app archives. A .war is a special kind of JAR that can distribute XML files, tag libraries, static webpages, Java classes, Java Servlets, and JavaServer pages. These resources, when integrated and implemented together, are considered a web application.
 
 TODO #1: Create and link to text files outlining options for various command usages.  
-TODO #2: Create and link to a text file outlining details about manifest files.  
+TODO #2: Add supporting details to manifests.md.  
 TODO #3: Provide an overview of .jar file signatures.  
 TODO #4: Add supporting details to wars.md.
