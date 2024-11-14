@@ -11,7 +11,7 @@ Advantages of .jar files include the following:
 | **Extension Packaging** | Turns apps into extensions and adds functonality to core Java. |
 | **Faster Downloads** | Only one HTTP transaction (one connection) is necessary for Java applet class files (and related resources) to be sent to a web browser. |
 | **Package Sealing** | By assuring that all classes in a package are included within a .jar file, version consistency can be sustained. |
-| **Secure Digital Signatures** | .jar files can be trusted with permissions based on utilizing these as a security mechanism. |  
+| **Secure Digital Signatures** | These provide .jar files with trustworthiness. A .jar file can be signed with a private key, and a public key can be placed within the .jar for signature verification. |  
 
 <br /><br />
 **How to use .jar files:**  The Java Development Kit ('JDK') contains a Java Archive Tool for accomplishing .jar file tasks. To use this tool, you would use the `jar` command.
