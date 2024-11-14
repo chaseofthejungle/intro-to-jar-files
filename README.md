@@ -59,5 +59,4 @@ Examples of APIs that integrate JAR files include:
 
 TODO #1: Create and link to text files outlining options for various command usages.  
 TODO #2: Add supporting details to manifests.md.  
-TODO #3: Provide an overview of .jar file signatures.  
-TODO #4: Add supporting details to wars.md.
+TODO #3: Add supporting details to wars.md.
