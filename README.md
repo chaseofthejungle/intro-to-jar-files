@@ -29,6 +29,13 @@ Some common uses of the jar command ('jar tool'):
 | **java -jar app.jar** | Runs a .jar applet, using the manifest header of the Main-Class. |
 
 <br /><br />
+And, similarly, for the jarsigner command...  
+
+| Usage | Explanation |
+| --- | --- |
+| **jarsigner -verify jar-file**| Verifies the signature of a .jar file. |
+
+<br /><br />
 How a .jar file should be ran depends on whether it: a) contains an applet for execution inside of a web browser, b) contains an app for command line execution, *or* c) contains code for usage as an extension.
   
 <br /><br />
