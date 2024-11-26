@@ -2,7 +2,7 @@
 **Definition:** JAR files are compressed Java archives (hence the extension '.jar'). These are bundles of Java-related files, assembled as Java archives. JAR files are convenient for unpacking and distributing Java web applets. 
 
 Advantages of .jar files include the following:
-
+<br /><br />
 | Advantage | Explanation |  
 | --- | --- |   
 | **Accessible File Information** | Information about archived files, such as versioning and vendor details, can be stored conveniently. |  
@@ -18,7 +18,7 @@ Advantages of .jar files include the following:
 
 <br /><br />
 Some common uses of the jar command ('jar tool'):
-
+<br /><br />
 | Usage | Explanation |
 | --- | --- |
 | **jar cf example-jar example-input-file** | Creates a .jar. *(Multiple input files can be specified.)* |
@@ -45,7 +45,7 @@ Upon creation of a JAR, a default manifest file is generated with a pathname of 
 
 <br /><br />
 Examples of APIs that integrate JAR files include:  
-
+<br /><br />
 | API | Explanation |
 | --- | --- |
 | **java.net.JarURLConnection** *(class)* | Provides URL connections to read JAR files (or entries within JAR files). |
