@@ -14,3 +14,15 @@ And also by default, the data contained within this file is:
 `Created-By: 1.7.0_06 (Oracle Corporation)`
 
 The above data are stored as header-value pairs, which use colons as delimiters (separators).
+
+Moving a step deeper...
+<br /><br />
+| Usage | Explanation |
+| --- | --- |
+| **jar cfm example-jar manifest-modification example-input-file** | Command to modify a manifest file. | <br /><br />
+* The *c* option declares the intention to create a .jar file.  
+* The *m* option is used to merge data from an already existing file into the manifest file of the .jar to be created.  
+* The *f* option directs output to be sent to the created .jar file instead of standard output.  
+* *manifest-modification* is the name of the already existing file that contains the data to be added to the new .jar's manifest.  
+* *example-jar* is the name that the new .jar file will be given.  
+* *example-input-file* indicates one (or more) file(s) that is/are to be included in the new .jar.
