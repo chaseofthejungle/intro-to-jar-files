@@ -24,3 +24,23 @@ Java classes, Java Servlets, and JavaServer pages. These resources, when integra
     - A web.xml file informs a servlet container as to which particular servlet a URL request is meant be routed.
       + This is important because the servlet container is responsible for providing deployed services.
     - A web.xml file defines context variables and environmental dependencies, to be referenced within servlets.
+  
+**A web.xml example for a simple servlet:**
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+  <display-name>Sample Web App</display-name>
+  <!--
+  <servlet>
+  <servlet-name>SampleWebApp</servlet-name>
+  <servlet-class>com.example.SampleWebApp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>SampleWebApp</servlet-name>
+  <url-pattern>/sample</url-pattern>
+  </servlet-mapping>
+  -->
+</web-app>
