@@ -59,4 +59,3 @@ Examples of APIs that integrate JAR files include:
 
 TODO #1: Create and link to text files (all 6 commands from the jar command table and the 1 from the jarsigner command table) outlining options for various command usages.  
 TODO #2: Add details to manifests.md, including how to set app entry point and package version metadata, add classes to the classpath, and package seal and enhance security.  
-TODO #3: Add an XML example to wars.md.
