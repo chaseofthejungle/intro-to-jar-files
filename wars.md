@@ -13,7 +13,7 @@ Java classes, Java Servlets, and JavaServer pages. These resources, when integra
 
 **A Disadvantage of WARs:**
 
-* Source code modifications require WARa to be repackaged and redeployed.
+* Source code modifications require WARs to be repackaged and redeployed.
 * .war structure/infrastructure may be overextensive, depending on app requirements.
 
 **On the importance of web.xml files:**
