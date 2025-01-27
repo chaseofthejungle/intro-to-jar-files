@@ -15,7 +15,7 @@ Advantages of .jar files include the following:
 
 <hr />
   
-## How to Use .jar Files
+## 1. How to Use .jar Files
   
 The Java Development Kit ('JDK') contains a Java Archive Tool for accomplishing .jar file tasks. To use this tool, you would use the `jar` command.
   
@@ -42,7 +42,7 @@ How a .jar file should be ran depends on whether it: a) contains an applet for e
 
 <hr />
 
-## Manifest Files
+## 2. Manifest Files
   
 [Manifest files](/manifests.md) contain essential data about the files packaged within JARs. This 'metadata' includes dependencies with other JAR files, versioning and security information (such as electronic signing), and other important values related to identification and the various advantages associated with .jar files.
   
@@ -50,7 +50,7 @@ Upon creation of a JAR, a default manifest file is generated with a pathname of 
 
 <hr />
   
-## Miscellaneous Notes
+## 3. Miscellaneous Notes
   
 Examples of APIs that integrate JAR files include:  
   
