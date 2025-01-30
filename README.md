@@ -1,8 +1,17 @@
 # Intro to JAR Files
 **Definition/Overview:** JAR files are compressed Java archives (hence the extension '.jar'). These are bundles of Java-related files, assembled as Java archives. JAR files are convenient for unpacking and distributing Java web applets. 
 
-Advantages of .jar files include the following:
+#### Table of Contents:
+
+1. Advantages of .jar Files
+2. How to Use .jar Files
+3. Manifest Files
+4. Miscellaneous Notes
   
+<hr />
+  
+## 1. Advantages of .jar Files
+    
 | Advantage | Explanation |  
 | --- | --- |   
 | **Accessible File Information** | Information about archived files, such as versioning and vendor details, can be stored conveniently. |  
@@ -12,10 +21,8 @@ Advantages of .jar files include the following:
 | **Faster Downloads** | Only one HTTP transaction (one connection) is necessary for Java applet class files (and related resources) to be sent to a web browser. |
 | **Package Sealing** | By assuring that all classes in a package are included within a .jar file, version consistency can be sustained. |
 | **Secure Digital Signatures** | These provide .jar files with trustworthiness. A .jar file can be signed with a private key, and a public key can be placed within the .jar for signature verification. |  
-
-<hr />
   
-## 1. How to Use .jar Files
+## 2. How to Use .jar Files
   
 The Java Development Kit ('JDK') contains a Java Archive Tool for accomplishing .jar file tasks. To use this tool, you would use the `jar` command.
   
@@ -42,7 +49,7 @@ How a .jar file should be ran depends on whether it: a) contains an applet for e
 
 <hr />
 
-## 2. Manifest Files
+## 3. Manifest Files
   
 [Manifest files](/manifests.md) contain essential data about the files packaged within JARs. This 'metadata' includes dependencies with other JAR files, versioning and security information (such as electronic signing), and other important values related to identification and the various advantages associated with .jar files.
   
@@ -50,7 +57,7 @@ Upon creation of a JAR, a default manifest file is generated with a pathname of 
 
 <hr />
   
-## 3. Miscellaneous Notes
+## 4. Miscellaneous Notes
   
 Examples of APIs that integrate JAR files include:  
   
