@@ -3,14 +3,14 @@
 
 #### Table of Contents:
 
-1. Advantages of .jar Files
-2. How to Use .jar Files
-3. Manifest Files
-4. Miscellaneous Notes
+1. [Advantages of .jar Files](#advantages-of-jars)
+2. [How to Use .jar Files](#how-to-use-jars)
+3. [Manifest Files](#manifest-files)
+4. [Miscellaneous Notes](#miscellaneous-notes)
   
 <hr />
   
-## 1. Advantages of .jar Files
+## <a name="advantages-of-jars">1. Advantages of .jar Files</a>
     
 | Advantage | Explanation |  
 | --- | --- |   
@@ -22,7 +22,7 @@
 | **Package Sealing** | By assuring that all classes in a package are included within a .jar file, version consistency can be sustained. |
 | **Secure Digital Signatures** | These provide .jar files with trustworthiness. A .jar file can be signed with a private key, and a public key can be placed within the .jar for signature verification. |  
   
-## 2. How to Use .jar Files
+## <a name="how-to-use-jars">2. How to Use .jar Files</a>
   
 The Java Development Kit ('JDK') contains a Java Archive Tool for accomplishing .jar file tasks. To use this tool, you would use the `jar` command.
   
@@ -49,7 +49,7 @@ How a .jar file should be ran depends on whether it: a) contains an applet for e
 
 <hr />
 
-## 3. Manifest Files
+## <a name="manifest-files">3. Manifest Files</a>
   
 [Manifest files](/manifests.md) contain essential data about the files packaged within JARs. This 'metadata' includes dependencies with other JAR files, versioning and security information (such as electronic signing), and other important values related to identification and the various advantages associated with .jar files.
   
@@ -57,7 +57,7 @@ Upon creation of a JAR, a default manifest file is generated with a pathname of 
 
 <hr />
   
-## 4. Miscellaneous Notes
+## <a name="miscellaneous-notes">4. Miscellaneous Notes</a>
   
 Examples of APIs that integrate JAR files include:  
   
