@@ -7,6 +7,7 @@
 2. [How to Use .jar Files](#how-to-use-jars)
 3. [Manifest Files](#manifest-files)
 4. [Miscellaneous Notes](#miscellaneous-notes)
+5. [Supplemental Resource](#supplemental)
   
 <hr />
   
@@ -72,6 +73,12 @@ Examples of APIs that integrate JAR files include:
 **A note on WAR files:** [WAR (.war)](/wars.md) files are web app archives. A .war is a special kind of JAR that can distribute XML files, tag libraries, static webpages, Java classes, Java Servlets, and JavaServer pages. These resources, when integrated and implemented together, are considered a web application.
 
 <hr />
+
+## <a name="supplemental">5. Supplemental Resource</a>
+
+* *[Spring Initializr (.jar and .war file generator for Spring Boot projects)](https://start.spring.io/)*
   
+<hr />
+
 TODO #1: Create and link to text files (all 6 commands from the jar command table and the 1 from the jarsigner command table) outlining options for various command usages.  
 TODO #2: Add details to manifests.md, including how to set app entry point and package version metadata, add classes to the classpath, and package seal and enhance security.  
