@@ -7,7 +7,7 @@
 2. [How to Use .jar Files](#how-to-use-jars)
 3. [Manifest Files](#manifest-files)
 4. [Miscellaneous Notes](#miscellaneous-notes)
-5. [Supplemental Resource](#supplemental)
+5. [Supplemental Resources](#supplemental)
   
 <hr />
   
@@ -74,9 +74,10 @@ Examples of APIs that integrate JAR files include:
 
 <hr />
 
-## <a name="supplemental">5. Supplemental Resource</a>
+## <a name="supplemental">5. Supplemental Resources</a>
 
 * *[Spring Initializr (.jar and .war file generator for Spring Boot projects)](https://start.spring.io/)*
+* *[Official Spring Boot Website](https://spring.io/projects/spring-boot)*
   
 <hr />
 
